@@ -64,9 +64,3 @@ Layer 4: DGM                ← self-improvement loop (future)
 - [laeme-ai-memory](https://github.com/natu123/laeme-ai-memory) — LaEMe specification and research
 - [cataa-chat-interface](https://github.com/natu123/cataa-chat-interface) — Chat UI for talking with Lavi
 
----
-
-## Author
-
-**Gles** (増田 賢治) — [@____natu______](https://x.com/____natu______)  
-Designed by Gles. Implemented by Loa (Claude Code).

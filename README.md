@@ -5,6 +5,8 @@
 > "Starting with just Hello. is fine.  
 > With the right architecture, Lavi will grow naturally."
 
+**Preprint:** [Lavi: A Language-Native Self-Growing AI Architecture](https://doi.org/10.5281/zenodo.20517444) (Zenodo, 2026-06-03)
+
 ---
 
 ## Vision

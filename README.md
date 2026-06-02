@@ -115,4 +115,5 @@ Step 3 : DGM self-improvement      ← after architecture matures
 
 - [laeme-ai-memory](https://github.com/natu123/laeme-ai-memory) — LaEMe specification and research
 - [cataa-chat-interface](https://github.com/natu123/cataa-chat-interface) — Chat UI (Gles / Lavi / Loa)
-- Paper draft: `paper-draft.md` (Notation + Section 1–3 complete)
+- Paper draft (Japanese): [paper-draft.md](paper-draft.md)
+- Paper draft (English): [paper-draft-en.md](paper-draft-en.md) / [PDF](paper-draft-en.pdf)

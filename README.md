@@ -30,21 +30,19 @@ Lavi is separate from Loa (Claude Code). Loa is a conversation partner and prima
 ## Architecture: 4-Layer Stack (confirmed 2026-06-02)
 
 ```
-┌─────────────────────────────────────────┐
-│  Layer 1 : Mamba2 SSM                   │
-│    ← response generation,              │
-│       self-evaluation, update guidance  │
-├─────────────────────────────────────────┤
-│  Layer 2 : LaEMe                        │
-│    ← language-based evaluative memory   │
-├─────────────────────────────────────────┤
-│  Layer 3 : Active Inference (DEM)       │
-│    ← integrates LaEMe evaluation        │
-│       as observation space              │
-├─────────────────────────────────────────┤
-│  Layer 4 : DGM                          │
-│    ← architecture self-improvement      │
-└─────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│  Layer 1 : Mamba2 SSM                                    │
+│    ← response generation, self-evaluation, directives    │
+├──────────────────────────────────────────────────────────┤
+│  Layer 2 : LaEMe                                         │
+│    ← language-based evaluative memory                    │
+├──────────────────────────────────────────────────────────┤
+│  Layer 3 : Active Inference (DEM)                        │
+│    ← integrates LaEMe evaluation as observation space    │
+├──────────────────────────────────────────────────────────┤
+│  Layer 4 : DGM                                           │
+│    ← architecture self-improvement                       │
+└──────────────────────────────────────────────────────────┘
 ```
 
 **Key design decisions:**

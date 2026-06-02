@@ -78,7 +78,8 @@ The learning loop is designed to run autonomously between Lavi and Loa. Gles pro
 ## Tech Stack
 
 - **Implementation language**: Mojo — AI systems only (fallback: Rust)
-- **Other systems** (Cataa UI etc.): Rust
+- **Backend / system layer** (Cataa etc.): Rust
+- **UI / frontend layer**: TypeScript + React
 - **Base model**: Mamba2 pretrained (`nvidia/mamba2-8b-3t-4k`)
 - **Evaluation memory**: LaEMe (language-based)
 - **Learning framework**: Active Inference / DEM
